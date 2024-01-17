@@ -16,11 +16,11 @@
     "source": "https://github.com/msk00007/simon_game_project"
   },
   {
-    "title": "One Page Calender",
+    "title": "Weather Application",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to build the single page calender for the whole year which ever year given by the user. It build using python GUI tkInter.",
-    "skills": ["Python", " GUI tkInter"],
-    "demo": "",
-    "source": "https://github.com/msk00007/gui-lab-programs/blob/main/calendertk.py"
+    "description": "Crafted a sleek weather app with real-time data from OpenWeatherMap and GeoDB Cities APIs. Responsive design, modular code, and secure key management for an optimized user experience.",
+    "skills": ["React", " API's"],
+    "demo": "https://msk-weather-application.netlify.app/",
+    "source": "https://github.com/msk00007/weatherApplication"
   }
 ]
