@@ -1,0 +1,26 @@
+[
+  {
+    "title": "eBook Application",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to use only one platform for eBooks where you can buy, sell, purchase, and also read .",
+    "skills": ["PHP", "JavaScript", "Bootstrap", "jQuery"],
+    "demo": "",
+    "source": "https://github.com/msk00007/myproject_repo"
+  },
+  {
+    "title": "The Simon Game",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to build the famous simon game. It build using pure JavaScript and plain CSS and HTML",
+    "skills": ["HTML ", "CSS", "JavaScript"],
+    "demo": "https://msk00007.github.io/simon_game_project/",
+    "source": "https://github.com/msk00007/simon_game_project"
+  },
+  {
+    "title": "One Page Calender",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to build the single page calender for the whole year which ever year given by the user. It build using python GUI tkInter.",
+    "skills": ["Python", " GUI tkInter"],
+    "demo": "",
+    "source": "https://github.com/msk00007/gui-lab-programs/blob/main/calendertk.py"
+  }
+]

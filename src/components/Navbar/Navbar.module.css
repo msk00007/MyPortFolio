@@ -1,0 +1,136 @@
+/* Navbar.module.css */
+
+.navbar {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 61px;
+  z-index: 2;
+  margin: 0 10%;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+.menu {
+  display: flex;
+}
+
+.menuItems {
+  list-style-type: none;
+  display: flex;
+  gap: 47px;
+  position: relative;
+}
+
+.menuItems a {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  line-height: 50px;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  text-align: center;
+}
+
+.menuBtn {
+  display: none;
+}
+
+.menuItems .animation {
+  position: absolute;
+  height: 5px;
+  bottom: 0;
+  z-index: 0;
+  background: #1abc9c;
+  border-radius: 8px;
+  transition: all 0.5s ease 0s;
+  left: 0; /* Set the initial position */
+}
+
+.menuItems .start_1 {
+  width: 100px;
+  left: 0;
+}
+
+.menuItems .start_2 {
+  width: 110px;
+  left: 100px;
+}
+
+.menuItems .start_3 {
+  width: 100px;
+  left: 210px;
+}
+.menuItems .start_4 {
+  width: 100px;
+  left: 310px;
+}
+
+.menuItems .animation {
+  width: 0;
+  opacity: 0;
+}
+
+.menuItems a:hover ~ .animation,
+.menuItems .start_1,
+.menuItems .start_2,
+.menuItems .start_3,
+.menuItems .start_4 {
+  width: 80px;
+  opacity: 1;
+}
+
+/* Media Query for responsive design */
+
+@media screen and (max-width: 830px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu {
+    position: absolute;
+    right: 0;
+    margin-right: 10%;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 11px;
+    z-index: 3;
+  }
+
+  .menuBtn {
+    display: block;
+    cursor: pointer;
+  }
+
+  .menuItems {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+    border-radius: 10px;
+    background: rgb(25, 55, 109);
+    background: linear-gradient(
+      0deg,
+      rgba(25, 55, 109, 0.2) 0%,
+      rgba(25, 55, 109, 1) 100%
+    );
+    padding: 24px 33px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  }
+
+  .menuOpen {
+    display: flex;
+    flex-direction: column;
+  }
+  .animation {
+    display: none;
+  }
+}
