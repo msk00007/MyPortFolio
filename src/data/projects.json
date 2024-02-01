@@ -22,5 +22,13 @@
     "skills": ["React", " API's"],
     "demo": "https://msk-weather-application.netlify.app/",
     "source": "https://github.com/msk00007/weatherApplication"
+  },
+  {
+    "title": "One Page Calander",
+    "imageSrc": "projects/project.png",
+    "description": "one page calander which gives complete year dates in single page based on the input",
+    "skills": ["HTML ", "CSS", "JavaScript"],
+    "demo": "https://msk00007.github.io/onePageCalander/",
+    "source": "https://github.com/msk00007/onePageCalander"
   }
 ]
