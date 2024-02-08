@@ -30,5 +30,13 @@
     "skills": ["HTML ", "CSS", "JavaScript"],
     "demo": "https://msk00007.github.io/onePageCalander/",
     "source": "https://github.com/msk00007/onePageCalander"
+  },
+  {
+    "title": "simple quiz app",
+    "imageSrc": "projects/project.png",
+    "description": "sample quiz application using php basically demo about how MySQL connects, operations, and how session stores values and use them",
+    "skills": ["HTML ", "CSS", "PHP", "MySQL"],
+    "demo": "https://quizappmsk.infinityfreeapp.com/?i=1",
+    "source": "https://github.com/msk00007/quizapp/"
   }
 ]
