@@ -13,7 +13,7 @@ export const Hero = () => {
           delivering web experiences that captivate and innovate
         </p>
         <a
-          href="https://drive.google.com/file/d/1z6F5XLRqz4FEZKuMf-hEqFe82FjNlD5c/view?usp=drive_link"
+          href="https://drive.google.com/file/d/12mYS11PfFwCRiOIP_zag9Egdkgo_cx5i/view?usp=sharing"
           className={styles.contactBtn}
           download={true}
         >
