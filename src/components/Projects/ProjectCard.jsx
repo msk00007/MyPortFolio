@@ -1,11 +1,10 @@
-import React from "react";
+import PropTypes from "prop-types";
 
 import styles from "./ProjectCard.module.css";
 import { getImageUrl } from "../../utils";
 
-export const ProjectCard = ({
-  project: { title, imageSrc, description, skills, demo, source },
-}) => {
+export const ProjectCard = ({ project }) => {
+  const { title, imageSrc, description, skills, demo, source } = project;
   return (
     <div className={styles.container}>
       <img
@@ -34,4 +33,15 @@ export const ProjectCard = ({
       </div>
     </div>
   );
+};
+
+ProjectCard.propTypes = {
+  project: PropTypes.shape({
+    title: PropTypes.string.isRequired,
+    imageSrc: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    skills: PropTypes.arrayOf(PropTypes.string).isRequired,
+    demo: PropTypes.string.isRequired,
+    source: PropTypes.string.isRequired,
+  }).isRequired,
 };

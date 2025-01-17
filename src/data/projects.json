@@ -19,7 +19,7 @@
     "title": "Weather Application",
     "imageSrc": "projects/project.png",
     "description": "Crafted a sleek weather app with real-time data from OpenWeatherMap and GeoDB Cities APIs. Responsive design,with 5 days forcast",
-    "skills": ["React", " API's"],
+    "skills": ["React", " API's", "CSS"],
     "demo": "https://msk-weather-application.netlify.app/",
     "source": "https://github.com/msk00007/weatherApplication"
   },
